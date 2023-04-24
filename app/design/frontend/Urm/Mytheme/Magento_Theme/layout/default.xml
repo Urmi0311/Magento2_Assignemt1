@@ -1,0 +1,26 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_file" xsi:type="string">images/mytheme-logo.png</argument>
+                <argument name="logo_img_width" xsi:type="number">200</argument>
+                <argument name="logo_img_height" xsi:type="number">200</argument>
+            </arguments>
+        </referenceBlock>
+
+        <referenceBlock name="copyright" remove="true"/>
+        <referenceBlock name="header.link.authorization">
+            <arguments>
+                <argument name="label" xsi:type="string">hello</argument>
+                <argument name="path" xsi:type="string">custom_path_for_sign_in</argument>
+            </arguments>
+        </referenceBlock>
+        <referenceBlock name="header.link.register">
+            <arguments>
+                <argument name="label" xsi:type="string">Your Custom Create an Account Text</argument>
+                <argument name="path" xsi:type="string">custom_path_for_create_account</argument>
+            </arguments>
+        </referenceBlock>
+
+    </body>
+</page>
