@@ -9,17 +9,12 @@
         </referenceBlock>
 
         <referenceBlock name="copyright" remove="true"/>
-        <referenceBlock name="header.link.authorization">
-            <arguments>
-                <argument name="label" xsi:type="string">hello</argument>
-                <argument name="path" xsi:type="string">custom_path_for_sign_in</argument>
-            </arguments>
-        </referenceBlock>
-        <referenceBlock name="header.link.register">
-            <arguments>
-                <argument name="label" xsi:type="string">Your Custom Create an Account Text</argument>
-                <argument name="path" xsi:type="string">custom_path_for_create_account</argument>
-            </arguments>
+        <referenceBlock name="top.links">
+            <block class="Magento\Customer\Block\Account\RegisterLink" name="register-link">
+                <arguments>
+                    <argument name="label" xsi:type="string" translate="true">Register</argument>
+                </arguments>
+            </block>
         </referenceBlock>
 
     </body>
