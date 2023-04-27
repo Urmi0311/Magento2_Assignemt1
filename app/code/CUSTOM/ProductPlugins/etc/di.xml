@@ -4,5 +4,6 @@
         <plugin name="product_a_plugin" sortOrder="10" type="CUSTOM\ProductPlugins\Plugin\ProductAPlugin" disabled="false" />
         <plugin name="product_b_plugin" sortOrder="20" type="CUSTOM\ProductPlugins\Plugin\ProductBPlugin" disabled="false" />
         <plugin name="product_c_plugin" sortOrder="30" type="CUSTOM\ProductPlugins\Plugin\ProductCPlugin" disabled="false" />
+
     </type>
 </config>
