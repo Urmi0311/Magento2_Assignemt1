@@ -1,0 +1,6 @@
+<type name="Magento\Catalog\Model\Config">
+    <plugin name="Package_CustomToolbar::addCustomOptions" type="Custom\Assignment\Plugin\Model\Config" />
+</type>
+<type name="Magento\Catalog\Block\Product\ProductList\Toolbar">
+<plugin name="Custom_Assignment::addPriceDecendingFilterInToolbar" type="Custom\Assignment\Plugin\Product\ProductList\Toolbar" />
+</type>

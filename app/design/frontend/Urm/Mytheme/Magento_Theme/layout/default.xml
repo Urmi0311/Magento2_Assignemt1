@@ -14,6 +14,16 @@
                 <arguments>
                     <argument name="label" xsi:type="string" translate="true">Register</argument>
                 </arguments>
+
+            </block>
+        </referenceBlock>
+        <referenceBlock name="search-term-popular-link" remove="true"/>
+        <referenceBlock name="footer_links">
+            <block class="Magento\Framework\View\Element\Html\Link\Current" name="custom-footer-link">
+                <arguments>
+                    <argument name="label" xsi:type="string">Track Custom Order</argument>
+                    <argument name="path" xsi:type="string">contact/</argument>
+                </arguments>
             </block>
         </referenceBlock>
 
