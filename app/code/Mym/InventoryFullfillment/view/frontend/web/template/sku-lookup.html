@@ -1,0 +1,12 @@
+<div class="sku-lookup">
+    <h2 translate ="'SKU Lookup'" ></h2>
+    <form data-bind="submit : handleSubmit">
+
+    <input id="sku" name="sku" type="text" data-bind="textInput : sku, attr : {placeholder: placeholder }" />
+    <button type="submit" data-bind="click : handleSubmit">Confirm SKU</button>
+    <div data-bind="html : messageResponse"></div>
+    </form>
+</div>
+
+
+
